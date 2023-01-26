@@ -1,0 +1,262 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@import "partials/variables";
+
+@mixin estilo_general($align, $justify){
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+.foo{
+    background-color: black;
+    div{
+        margin: 0;
+        padding: 0;
+        span{ color:$color_fuente;}
+        div{
+            .iconos{
+                @include estilo_general(center, center);
+                text-decoration: none;
+                list-style: none;
+                .icon--wtp{
+                    font-size: 20px;
+                    color: $color_icon;
+                    text-decoration: none;
+                }
+                .icon--fb{
+                    font-size: 20px;
+    color: $color_icon;
+    text-decoration: none;
+                }
+                .icon--ig{
+                    font-size: 20px;
+    color: $color_icon;
+    text-decoration: none;
+                }
+            }
+        }
+        #copy{
+            background-color: rgb(37, 37, 37);
+            p{
+                font-size: 10;
+            }
+        }
+        p{color:$color_fuente}
+    }
+}
+
+footer {
+    #contMapa{
+        width: max-content;
+        background-color: white;
+    }
+    div{
+        background-color: black;
+    .foo-ter{
+       @extend.foo
+    }
+    }
+}
+
+footer {
+    .foo-tee{
+       @extend.foo
+    }
+    }
+.bi-whatsapp:hover{
+     color: rgb(20, 182, 20);
+}
+
+.bi-facebook:hover{
+   color: rgb(0, 0, 255);
+}
+
+.bi-instagram:hover{
+   color: rgb(248, 125, 145);
+}
+
+#contacto{
+    li{
+    font-size: 45px;
+    list-style: none;
+    text-decoration: none;
+    }
+}
+
+.bi-envelope:hover{
+    color: brown;
+}
+
+
+span {
+    font-family: $fuente_principal;
+}
+
+p {
+    font-family: $fuente_principal;
+}
+
+li {
+    font-family: $fuente_principal;
+}
+
+h1 {
+    font-family: $fuente_principal;
+}
+
+h2 {
+    font-family: $fuente_principal;
+}
+
+h3{
+    font-family: $fuente_principal;
+}
+
+h4{
+    font-family: $fuente_principal; 
+}
+
+#imagen{
+    background-image: url(../multimedia/auto.jpg);
+    color: $color_fuente;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.slogan {
+    color: $color_fuente;
+    text-align: center;
+    background-color: black;
+}
+
+@media screen and (max-width: 576px){
+
+    #nos{
+        height: 200px;
+        background-color: black;
+        img{
+            height: 200px;
+            width: fit-content;
+        }
+    }
+
+    #mapa{
+        display: flex;
+        height: 100px;
+        width: max-content;
+    }
+
+    #imagen{
+     height: 270px;
+     background-position: center top;
+     h1{
+        margin: 10px;
+        font-size: 35px;
+      }
+    }
+    
+    #hs{
+        height: 100px;
+        width: fit-content;
+     }
+
+     #contacto{
+        li{
+        font-size: 20px;
+        }
+
+    }
+
+    header{
+        nav{
+            #logo{
+                display: flex;
+                height: 40px;
+                width: fit-content;
+                margin: 0%;
+                padding: 0%;
+         }
+     }
+ }
+ 
+}  
+
+ @media only screen and (min-width: 576px){
+
+    #nos{
+        height: 500px;
+        background-color: black;
+        img{
+            height: 500px;
+            width: fit-content;
+        }
+    }
+
+    #mapa{
+        display: flex;
+        height: 200px;
+    }
+
+    #imagen{
+      height: 580px;
+      background-position: center top;
+      h1{
+        margin: 10px;
+        font-size: 48px;
+      }
+     }
+
+  
+     
+     p{
+        font-size: 20px;
+     }
+
+     header{
+        nav{
+            height: 65px;
+            #logo{
+                display: flex;
+                height: 65px;
+                width: fit-content;
+                margin: 0%;
+                padding: 0%;
+            }
+             #navbarNav{
+                margin-right: 70px;
+                .nav-item{
+                    margin: 0%;
+                     a{
+                        font-size: 19px;
+                }
+            }
+        }
+        
+         }
+     }
+    
+     #hs{
+        width: fit-content;
+        height: 150px;
+    }
+
+    #acuerdo{
+        width: fit-content;
+        height: 400px;
+    }
+
+    #volante{
+        width: fit-content;
+        height: 400px;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
