@@ -33,6 +33,11 @@
     color: $color_icon;
     text-decoration: none;
                 }
+                .icon--tik{
+                    font-size: 20px;
+    color: $color_icon;
+    text-decoration: none;
+                }
             }
         }
         #copy{
@@ -72,6 +77,10 @@ footer {
 
 .bi-instagram:hover{
    color: rgb(248, 125, 145);
+}
+
+.bi-tiktok:hover{
+    color: aqua;
 }
 
 #contacto{

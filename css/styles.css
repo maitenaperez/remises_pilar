@@ -24,6 +24,10 @@
         font-size: 20px;
         color: #999898;
         text-decoration: none; }
+      .foo div div .iconos .icon--tik, footer div .foo-ter div div .iconos .icon--tik, footer .foo-tee div div .iconos .icon--tik {
+        font-size: 20px;
+        color: #999898;
+        text-decoration: none; }
     .foo div #copy, footer div .foo-ter div #copy, footer .foo-tee div #copy {
       background-color: #252525; }
       .foo div #copy p, footer div .foo-ter div #copy p, footer .foo-tee div #copy p {
@@ -45,6 +49,9 @@ footer div {
 
 .bi-instagram:hover {
   color: #f87d91; }
+
+.bi-tiktok:hover {
+  color: aqua; }
 
 #contacto li {
   font-size: 45px;
