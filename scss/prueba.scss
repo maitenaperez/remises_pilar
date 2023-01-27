@@ -47,7 +47,6 @@
 
 footer {
     #contMapa{
-        width: max-content;
         background-color: white;
     }
     div{
@@ -122,7 +121,7 @@ h4{
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
-    align-items: end;
+    align-items: top;
     justify-content: end;
 }
 
@@ -135,18 +134,16 @@ h4{
 @media screen and (max-width: 576px){
 
     #nos{
-        height: 200px;
+        height: 230px;
         background-color: black;
         img{
-            height: 200px;
+            height: 230px;
             width: fit-content;
         }
     }
 
     #mapa{
-        display: flex;
         height: 100px;
-        width: max-content;
     }
 
     #imagen{
@@ -154,7 +151,7 @@ h4{
      background-position: center top;
      h1{
         margin: 10px;
-        font-size: 35px;
+        font-size: 30px;
       }
     }
     
@@ -195,11 +192,6 @@ h4{
         }
     }
 
-    #mapa{
-        display: flex;
-        height: 200px;
-    }
-
     #imagen{
       height: 580px;
       background-position: center top;
@@ -208,8 +200,6 @@ h4{
         font-size: 48px;
       }
      }
-
-  
      
      p{
         font-size: 20px;
@@ -237,6 +227,8 @@ h4{
         
          }
      }
+
+
     
      #hs{
         width: fit-content;
@@ -251,6 +243,13 @@ h4{
     #volante{
         width: fit-content;
         height: 400px;
+    }
+
+    #flota{
+        img{
+            height: 300px;
+            width: fit-content;
+        }
     }
 }
 
